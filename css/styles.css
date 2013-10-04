@@ -48,6 +48,8 @@ body {
 
 nav ul {
 	background-color: #D74710;
+	margin-right: 10px;
+	margin-left: 10px;
 }
 
 nav li {
@@ -70,9 +72,13 @@ nav a:hover {
 	background-color: #FF9D45;
 }
 
+.rounded {
+	border-radius: 5px;
+}
+
 .footer {
 	border-style:solid;
-	border-top:thick double #ff0000;
+	border-top:thin double #ADADAD;
 	font-size: 80%;
 	font-style: italic;
 }
