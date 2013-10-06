@@ -31,6 +31,13 @@ h2 {
 	box-shadow: 2px 2px 6px #555;
 }
 
+.content-box2 {
+	width: 75%;
+	background-color: #FBEAE3;
+	margin: 0 auto;
+	border-radius: 5px;
+}
+
 .name {
 	font-family: 'Boogaloo';
 	font-size: 36px;

@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+	<head>
+		<!--#include virtual="inc/header.html" -->
+	</head>
+
+	<body>
+		<div class="content-box">
+			<p class="name"><img class="pull-left" src="img/logo.png" alt="logo">Widgets-R-Us</p>
+
+			<p class="motto">Making high-quality widgets since 1991</p>
+
+			<nav>
+				<ul class="rounded">
+					<li><a href="index.shtml">Home</a></li>
+					<li><a href="products.shtml">Products</a></li>
+					<li><a href="about.shtml">About</a></li>
+				</ul>
+			</nav>
+
+			<br><div class="content-box2">
+				<p><a href="sales@widgetsrus.com">Send us an email</a> or call us to order any of our products.</p>
+			</div>
+
+			<!--#include virtual="inc/footer.html" -->
+		</div>
+	</body>
+</html>
