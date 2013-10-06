@@ -1,15 +1,17 @@
 <!doctype html>
 <html>
 	<head>
+		<!-- moved header to server side includes -->
 		<!--#include virtual="inc/header.html" -->
 	</head>
 
 	<body>
 		<div class="content-box">
+			<!-- creates the top heading and pulls logo to left -->
 			<p class="name"><img class="pull-left" src="img/logo.png" alt="logo">Widgets-R-Us</p>
-
 			<p class="motto">Making high-quality widgets since 1991</p>
 
+			<!-- navigation bar with rounded corners -->
 			<nav>
 				<ul class="rounded">
 					<li><a href="index.shtml">Home</a></li>
@@ -18,6 +20,7 @@
 				</ul>
 			</nav>
 
+			<!-- content of site (lorem in this case), pulls image to left-->
 			<p><img class="pull-left" src="img/factory.jpg" alt="factory">
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -33,7 +36,9 @@
 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-			<p><img class="pull-right" src="img/free-shipping.jpg" alt="shipping">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			<!-- pulls image to right -->
+			<p><img class="pull-right" src="img/free-shipping.jpg" alt="shipping">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse

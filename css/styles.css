@@ -31,6 +31,7 @@ h2 {
 	box-shadow: 2px 2px 6px #555;
 }
 
+/* content box for products page */
 .content-box2 {
 	width: 75%;
 	background-color: #FBEAE3;
@@ -85,6 +86,7 @@ nav a:hover {
 	background-color: #FF9D45;
 }
 
+/* span element to change font of name of team members */
 span {
 	color: #116189; 
 }
