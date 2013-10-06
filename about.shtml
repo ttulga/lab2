@@ -1,10 +1,7 @@
 <!doctype html>
 <html>
 	<head>
-		<title>Widgets-R-Us</title>
-		<meta charset="UTF-8">
-		<link rel="stylesheet" href="css/styles.css">
-		<meta name="author" content="ttulga">
+		<!--#include virtual="inc/header.html" -->
 	</head>
 
 	<body>
@@ -20,7 +17,7 @@
 				</ul>
 			</nav>
 
-			<h2>Our Story</h2>
+			<h2><br>Our Story</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -36,23 +33,24 @@
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 			<h2>Our Team</h2>
-			<p><a class="pull-left"><img src="img/person.jpg" alt="person">Amy Chen, President</a>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			<p><a class="pull-left"><img src="img/person.jpg" alt="person"></a><span>Amy Chen, President</span><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
 
-			<p><a class="pull-left"><img src="img/person.jpg" alt="person">Rochelle Jones, CIO</a>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			<p><a class="pull-left"><img src="img/person.jpg" alt="person"></a><span>Rochelle Jones, CIO</span><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
 
-			<p><a class="pull-left"><img src="img/person.jpg" alt="person">Michael Matsui, VP Operations</a>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			<p><a class="pull-left"><img src="img/person.jpg" alt="person"></a><span>Michael Matsui, VP Operations</span><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
 
-			<p><a class="pull-left"><img src="img/person.jpg" alt="person">Thorfin Skullsplitter, HR Director</a>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			<p><a class="pull-left"><img src="img/person.jpg" alt="person"></a><span>Thorfin Skullsplitter, HR Director</span><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
 
-			<p class="footer">We ship for free in the continental United States! call or <a href=“mailto:sales@widgetsrus.com”>email us</a> to place an order today. <br><br>&copy;2013 Widgets-R-Us</p>
+			<!--#include virtual="inc/footer.html" -->
+
 		</div>
 	</body>
 </html>

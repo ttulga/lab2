@@ -18,6 +18,12 @@ body {
     padding: 10px;
 }
 
+h2 {
+	font-size: 36px;
+	color: #116189; 
+	margin-left: 20px;
+}
+
 .content-box {
 	width: 80%;
 	background-color: #FFF;
@@ -48,8 +54,8 @@ body {
 
 nav ul {
 	background-color: #D74710;
-	margin-right: 10px;
-	margin-left: 10px;
+	margin-right: 20px;
+	margin-left: 20px;
 }
 
 nav li {
@@ -70,6 +76,10 @@ nav a:visited {
 
 nav a:hover {
 	background-color: #FF9D45;
+}
+
+span {
+	color: #116189; 
 }
 
 .rounded {
